@@ -1,0 +1,2984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns:o="urn:schemas-microsoft-com:office"
+          xmlns:x="urn:schemas-microsoft-com:excel"
+          xmlns:ss="urn:schemas-microsoft-com:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+      <Author>Global Health Observatory</Author>
+      <Created>2020-03-23T18:01:59.324+01:00</Created>
+      <Company>World Health Organization</Company>
+      <Version>1.0</Version>
+   </DocumentProperties>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Top"/>
+         <Borders/>
+         <Font ss:Size="10"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Data" ss:Name="Data">
+         <Alignment ss:Vertical="Top"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="10"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Header" ss:Name="Header">
+         <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+         </Borders>
+         <Font ss:Size="11" ss:Bold="1"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="HeaderHyperlink" ss:Name="HeaderHyperlink">
+         <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+         </Borders>
+         <Font ss:Size="11" ss:Bold="1" ss:Color="#0000FF" ss:Underline="Single"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Bold" ss:Name="Bold">
+         <Alignment ss:Vertical="Top"/>
+         <Font ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="Hyperlink" ss:Name="Hyperlink">
+         <Font ss:Color="#0000FF" ss:Underline="Single"/>
+      </Style>
+      <Style ss:ID="WordWrap" ss:Name="WordWrap">
+         <Alignment ss:WrapText="1"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Data">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="Header" ss:MergeDown="1">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:Index="2" ss:MergeAcross="3"
+                  ss:HRef="https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2921"
+                  ss:StyleID="HeaderHyperlink">
+               <Data ss:Type="String">Estimated number of people (all ages) living with HIV</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="2" ss:StyleID="Header">
+               <Data ss:Type="String">2018</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Afghanistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7200 [4100–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4200 [2500–6200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2900 [1700–5000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1600 [1000–3500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Albania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Algeria</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [15 000–17 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7100 [6600–7600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3700 [3500–4000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1900 [1700–2000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Angola</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">330 000 [290 000–390 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">220 000 [180 000–250 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">150 000 [120 000–170 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 000 [72 000–110 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Argentina</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [130 000–150 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [96 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">85 000 [76 000–94 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">64 000 [55 000–71 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Armenia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3500 [3000–4400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3300 [2800–4100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2700 [2000–3500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">950 [580–1600]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Australia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28 000 [23 000–31 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 000 [17 000–23 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [14 000–19 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13 000 [11 000–15 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Austria</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Azerbaijan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bahamas</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6000 [5300–6700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5800 [5100–6600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5100 [4400–6000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5100 [4400–5900]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bahrain</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bangladesh</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 000 [12 000–16 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7700 [6600–8800]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4000 [3500–4600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">940 [800–1100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Barbados</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3000 [2700–3400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2300 [2100–2600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1700 [1500–1900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1100 [1000–1300]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belarus</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">27 000 [22 000–34 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12 000 [10 000–15 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5400 [4500–6700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1400 [1100–1900]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belgium</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Belize</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4900 [4400–5400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3700 [3400–4100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2800 [2600–3100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1700 [1600–1800]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Benin</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">73 000 [48 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">61 000 [41 000–98 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">56 000 [37 000–90 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">47 000 [31 000–75 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bhutan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1300 [700–2700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1300 [590–2700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1100 [&lt;500–2000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">530 [&lt;200–970]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bolivia (Plurinational State of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22 000 [20 000–24 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23 000 [20 000–25 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26 000 [24 000–28 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 000 [20 000–23 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bosnia and Herzegovina</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;200–&lt;200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;100–&lt;200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">370 000 [330 000–400 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">340 000 [300 000–360 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">310 000 [280 000–330 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">280 000 [270 000–300 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Brazil</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">900 000 [690 000–1 100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">670 000 [520 000–830 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">550 000 [420 000–680 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">410 000 [320 000–510 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Brunei Darussalam</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Bulgaria</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3500 [3000–4100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1700 [1600–1900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">980 [910–1100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Burkina Faso</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">96 000 [78 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [88 000–130 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [95 000–140 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [110 000–170 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Burundi</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">82 000 [71 000–97 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">93 000 [79 000–110 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [88 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">130 000 [110 000–150 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cabo Verde</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2400 [2100–2900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2100 [1700–2600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1800 [1400–2700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1600 [1200–2500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cambodia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">73 000 [64 000–84 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">79 000 [68 000–93 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">82 000 [70 000–97 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">81 000 [73 000–91 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cameroon</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">540 000 [470 000–590 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">520 000 [460 000–560 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">470 000 [430 000–500 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">370 000 [350 000–410 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Canada</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Central African Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [90 000–140 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [110 000–160 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">150 000 [130 000–170 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">160 000 [130 000–190 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Chad</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [94 000–150 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">99 000 [80 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">88 000 [69 000–110 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">80 000 [60 000–100 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Chile</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">71 000 [63 000–78 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">39 000 [34 000–43 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25 000 [22 000–27 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 000 [13 000–16 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">China</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Colombia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">160 000 [130 000–180 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">130 000 [100 000–150 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [98 000–140 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [91 000–130 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Comoros</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;100–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;100–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Congo</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">89 000 [69 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">82 000 [69 000–95 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">77 000 [63 000–90 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">80 000 [64 000–96 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Costa Rica</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15 000 [13 000–17 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9300 [8400–10 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6500 [5800–7200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4300 [3700–4700]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Côte d'Ivoire</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">460 000 [360 000–580 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">480 000 [380 000–610 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">510 000 [410 000–650 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">590 000 [470 000–740 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Croatia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1600 [1400–1700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1000 [930–1100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">710 [630–800]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cuba</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31 000 [24 000–37 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 000 [13 000–21 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9000 [6700–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4100 [2900–5000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cyprus</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Czechia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4400 [3700–5000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1800 [1500–2000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">970 [820–1100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">510 [&lt;500–580]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Democratic People's Republic of Korea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Democratic Republic of the Congo</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">450 000 [370 000–530 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">480 000 [400 000–560 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">510 000 [430 000–590 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">540 000 [470 000–610 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Denmark</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6200 [5600–7000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5500 [5000–6200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4900 [4500–5500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4000 [3600–4600]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Djibouti</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8800 [7100–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9400 [7700–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11 000 [9000–13 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9400 [7200–12 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Dominican Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">70 000 [54 000–92 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">72 000 [54 000–91 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">79 000 [61 000–100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">85 000 [62 000–120 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ecuador</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">44 000 [29 000–71 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">34 000 [22 000–57 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29 000 [19 000–49 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26 000 [15 000–46 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Egypt</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22 000 [20 000–24 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6800 [6100–7400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3200 [2800–3500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1500 [1400–1600]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">El Salvador</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">25 000 [21 000–30 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26 000 [20 000–31 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23 000 [17 000–28 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18 000 [14 000–23 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Equatorial Guinea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">62 000 [50 000–81 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">35 000 [29 000–41 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22 000 [17 000–28 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13 000 [9200–18 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Eritrea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18 000 [13 000–24 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 000 [13 000–22 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 000 [13 000–22 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [12 000–20 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Estonia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7400 [6600–8200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6000 [5100–6700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5400 [4600–6000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3400 [2900–3900]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Eswatini</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">210 000 [190 000–220 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">160 000 [150 000–170 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">130 000 [120 000–140 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [98 000–120 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ethiopia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">690 000 [530 000–900 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">630 000 [480 000–830 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">640 000 [490 000–840 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">750 000 [570 000–980 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Fiji</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Finland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4000 [3100–4900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2700 [2200–3500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1900 [1500–2400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1100 [850–1400]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">France</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">180 000 [150 000–210 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [120 000–160 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [95 000–130 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">82 000 [69 000–97 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Gabon</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">53 000 [43 000–67 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">43 000 [36 000–51 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">35 000 [27 000–43 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">28 000 [20 000–38 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Gambia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26 000 [21 000–33 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18 000 [15 000–23 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15 000 [11 000–19 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9900 [7200–13 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Georgia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9400 [8100–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5600 [4500–6700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2800 [2300–3400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">980 [720–1300]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Germany</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 000 [71 000–100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">69 000 [57 000–81 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">56 000 [46 000–65 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">45 000 [37 000–54 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ghana</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">330 000 [280 000–390 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">300 000 [250 000–340 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">280 000 [240 000–320 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">270 000 [240 000–300 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Greece</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guatemala</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">47 000 [43 000–51 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">49 000 [44 000–53 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">48 000 [44 000–51 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">44 000 [41 000–47 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guinea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [100 000–140 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">100 000 [90 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">93 000 [81 000–110 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">83 000 [67 000–100 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guinea-Bissau</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">44 000 [39 000–49 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">38 000 [34 000–42 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31 000 [28 000–35 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22 000 [20 000–25 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Guyana</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8200 [7200–9400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6700 [6000–7400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5000 [4400–5700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2300 [1600–3100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Haiti</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">160 000 [140 000–180 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [130 000–160 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [120 000–160 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">150 000 [130 000–180 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Honduras</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23 000 [18 000–28 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26 000 [21 000–32 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31 000 [24 000–38 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">40 000 [34 000–49 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Hungary</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3700 [3200–4200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2000 [1800–2300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1200 [1000–1300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">830 [700–950]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Iceland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;200–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;200–&lt;200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;200]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">India</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Indonesia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">640 000 [550 000–750 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">510 000 [450 000–590 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">290 000 [260 000–330 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">80 000 [72 000–89 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Iran (Islamic Republic of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">61 000 [34 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">50 000 [37 000–70 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">37 000 [25 000–56 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [7900–35 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ireland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7200 [6200–8000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4800 [4200–5400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3200 [2800–3600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1900 [1700–2200]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Israel</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9000 [8000–10 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6000 [5400–6800]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4100 [3700–4600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2700 [2400–3100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Italy</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">130 000 [110 000–140 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [92 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">89 000 [76 000–100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">68 000 [57 000–78 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Jamaica</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">40 000 [35 000–46 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">37 000 [32 000–42 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">38 000 [33 000–42 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">41 000 [37 000–46 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Japan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30 000 [25 000–34 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19 000 [16 000–22 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12 000 [9700–14 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6200 [5100–7200]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Jordan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;200–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;200–&lt;200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;200]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kazakhstan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26 000 [24 000–27 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11 000 [10 000–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4000 [3800–4300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1100 [1100–1200]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kenya</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 600 000 [1 300 000–1 900 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 500 000 [1 200 000–1 800 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 500 000 [1 300 000–1 900 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 700 000 [1 400 000–2 000 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kuwait</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">640 [580–700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;200–&lt;200]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Kyrgyzstan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8500 [6500–12 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4100 [3200–5500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1500 [1300–1900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">710 [580–840]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lao People's Democratic Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12 000 [11 000–14 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9900 [8800–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6700 [6000–7500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2200 [2000–2400]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Latvia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5300 [4800–5900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4000 [3500–4500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3200 [2900–3600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2300 [2200–2500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lebanon</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2500 [2200–2800]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1600 [1400–1800]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1300 [1100–1400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">910 [790–1000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lesotho</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">340 000 [320 000–360 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">300 000 [280 000–320 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">280 000 [260 000–300 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">260 000 [240 000–290 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Liberia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">39 000 [36 000–44 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">41 000 [37 000–46 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">41 000 [38 000–45 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">43 000 [41 000–45 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Libya</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9200 [8300–10 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6100 [5600–6500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2900 [2700–3100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">950 [870–1000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Lithuania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Luxembourg</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1200 [1000–1300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">700 [620–780]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–540]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Madagascar</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">39 000 [30 000–55 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 000 [18 000–24 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19 000 [15 000–23 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13 000 [7900–20 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malawi</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 000 000 [940 000–1 100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">870 000 [770 000–960 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">820 000 [720 000–900 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">810 000 [740 000–860 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malaysia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 000 [77 000–98 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">74 000 [65 000–86 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">66 000 [57 000–77 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">55 000 [48 000–65 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Maldives</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mali</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">150 000 [120 000–190 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [94 000–140 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [91 000–130 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [91 000–130 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Malta</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mauritania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5600 [4500–7200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7100 [5900–8400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7500 [6400–8800]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5500 [4500–6500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mauritius</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13 000 [10 000–15 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11 000 [9500–12 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8000 [6100–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3200 [1500–6000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mexico</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">230 000 [200 000–270 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">180 000 [150 000–210 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">150 000 [120 000–200 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">130 000 [94 000–190 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mongolia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">600 [530–670]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;200–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Montenegro</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;200–&lt;200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Morocco</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 000 [17 000–28 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 000 [13 000–22 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13 000 [11 000–18 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9700 [7800–13 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Mozambique</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2 200 000 [1 700 000–2 700 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 600 000 [1 300 000–1 900 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 200 000 [980 000–1 500 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">840 000 [670 000–1 000 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Myanmar</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">240 000 [210 000–270 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">220 000 [190 000–260 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">210 000 [180 000–240 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">150 000 [130 000–170 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Namibia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">200 000 [190 000–220 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">170 000 [160 000–180 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">160 000 [140 000–170 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [130 000–160 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nepal</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30 000 [26 000–34 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">31 000 [27 000–36 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29 000 [25 000–33 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [14 000–17 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Netherlands</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20 000 [19 000–21 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [15 000–17 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11 000 [11 000–12 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">New Zealand</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3600 [3100–4200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2500 [2100–2800]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1800 [1600–2100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1300 [1100–1500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nicaragua</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9400 [7600–12 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7900 [6500–10 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6100 [4600–8300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3600 [2100–5300]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Niger</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">36 000 [30 000–43 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">37 000 [32 000–42 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">40 000 [34 000–46 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">37 000 [31 000–44 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nigeria</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 900 000 [1 400 000–2 600 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 500 000 [1 100 000–2 100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 400 000 [1 000 000–1 900 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 300 000 [940 000–1 700 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Norway</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5800 [5200–6300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4200 [3800–4600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3000 [2700–3300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1900 [1700–2100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Oman</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3200 [2900–3600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2200 [2000–2500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1700 [1600–1900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1300 [1100–1400]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Pakistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">160 000 [140 000–190 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">67 000 [57 000–76 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12 000 [10 000–14 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–520]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Panama</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">26 000 [24 000–29 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20 000 [18 000–22 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [14 000–17 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11 000 [10 000–12 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Papua New Guinea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">45 000 [41 000–50 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">38 000 [34 000–42 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">38 000 [34 000–42 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20 000 [17 000–25 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Paraguay</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 000 [16 000–31 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20 000 [14 000–27 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">19 000 [14 000–25 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 000 [7100–21 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Peru</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">79 000 [58 000–110 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">65 000 [49 000–91 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">65 000 [50 000–91 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">71 000 [56 000–94 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Philippines</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">77 000 [65 000–90 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15 000 [13 000–18 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3700 [3100–4300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1000 [910–1200]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Poland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Portugal</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">41 000 [36 000–46 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">40 000 [35 000–45 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">37 000 [33 000–42 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">32 000 [27 000–37 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Qatar</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of Korea</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of Moldova</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 000 [14 000–23 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [12 000–20 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12 000 [9600–16 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">10 000 [8000–13 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Romania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">18 000 [16 000–20 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 000 [12 000–15 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11 000 [9800–12 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7500 [6900–8100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Russian Federation</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Rwanda</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">220 000 [200 000–250 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">220 000 [200 000–250 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">220 000 [190 000–250 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">240 000 [220 000–280 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Saudi Arabia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Senegal</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">42 000 [37 000–47 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">44 000 [39 000–50 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">42 000 [38 000–48 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">33 000 [29 000–39 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Serbia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3000 [2200–3800]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1800 [1300–2200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1100 [750–1500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1000 [660–1400]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sierra Leone</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">70 000 [56 000–86 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">58 000 [48 000–70 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">51 000 [42 000–61 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">40 000 [31 000–50 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Singapore</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7900 [7200–8700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6500 [5700–7300]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4100 [3500–4700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2900 [2600–3300]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Slovakia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1200 [910–1900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–730]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;200–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;100–&lt;200]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Slovenia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Somalia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11 000 [8400–15 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17 000 [15 000–20 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20 000 [18 000–23 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">16 000 [14 000–20 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">South Africa</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7 700 000 [7 100 000–8 300 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6 100 000 [5 500 000–6 600 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5 000 000 [4 400 000–5 400 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3 300 000 [2 900 000–3 700 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">South Sudan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">190 000 [140 000–240 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [110 000–170 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [89 000–150 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">90 000 [56 000–120 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Spain</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">150 000 [130 000–170 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">140 000 [120 000–150 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [100 000–130 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">92 000 [78 000–110 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sri Lanka</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3500 [3100–4000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4000 [3400–4700]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3600 [3100–4100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2200 [1900–2400]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sudan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">59 000 [26 000–110 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">43 000 [36 000–51 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">29 000 [20 000–40 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15 000 [7500–29 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Suriname</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5600 [3700–8100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4600 [3300–6200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4000 [3000–5600]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3100 [2300–4400]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Sweden</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Switzerland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Syrian Arab Republic</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">660 [590–720]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">570 [510–630]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–&lt;500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tajikistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13 000 [11 000–16 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9200 [7500–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5200 [3700–6900]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1400 [780–2700]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Thailand</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">480 000 [420 000–550 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">580 000 [490 000–690 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">630 000 [510 000–780 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">740 000 [610 000–890 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Republic of North Macedonia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;500–520]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;200 [&lt;200–&lt;200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;100 [&lt;100–&lt;100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Timor-Leste</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Togo</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">110 000 [100 000–120 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">100 000 [96 000–110 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">100 000 [94 000–110 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">94 000 [87 000–100 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Trinidad and Tobago</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tunisia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2800 [1700–4400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1400 [980–2200]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">640 [&lt;500–1100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;500 [&lt;200–710]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Turkey</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Turkmenistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uganda</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 400 000 [1 300 000–1 500 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 200 000 [1 100 000–1 300 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 100 000 [1 000 000–1 100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 000 000 [930 000–1 100 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ukraine</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">240 000 [220 000–260 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">230 000 [220 000–250 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">230 000 [220 000–240 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">170 000 [150 000–180 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Arab Emirates</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Kingdom of Great Britain and Northern Ireland</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United Republic of Tanzania</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 600 000 [1 400 000–1 700 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 300 000 [1 100 000–1 400 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 200 000 [1 000 000–1 300 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 100 000 [1 000 000–1 200 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">United States of America</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">990 000 [880 000–1 100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uruguay</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 000 [9900–19 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9600 [8000–11 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7600 [6200–10 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6000 [4200–12 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Uzbekistan</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">52 000 [48 000–56 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30 000 [27 000–32 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 000 [19 000–23 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 000 [13 000–16 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Venezuela (Bolivarian Republic of)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [100 000–130 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Viet Nam</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">230 000 [200 000–260 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">220 000 [180 000–250 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">180 000 [160 000–210 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">120 000 [110 000–130 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Yemen</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11 000 [6500–18 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5100 [3500–7400]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2400 [1500–4000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1100 [680–2500]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Zambia</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 200 000 [1 100 000–1 400 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 000 000 [900 000–1 100 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">920 000 [820 000–1 000 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">890 000 [800 000–1 000 000]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Zimbabwe</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 300 000 [1 100 000–1 500 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 200 000 [1 100 000–1 400 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 400 000 [1 200 000–1 600 000]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1 600 000 [1 400 000–1 900 000]</Data>
+            </Cell>
+         </Row>
+      </Table>
+   </Worksheet>
+</Workbook>

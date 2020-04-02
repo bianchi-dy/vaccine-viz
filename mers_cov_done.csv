@@ -1,0 +1,10 @@
+year,linked_to_disease,declared_pandemic,vaccination_licensed,infection_incidence_count,death_count,Source
+2012,TRUE,FALSE,FALSE,9,nan,https://www.kaggle.com/imdevskp/mers-outbreak-dataset-20122019#weekly_clean.csv
+2013,FALSE,FALSE,FALSE,191,nan,https://www.who.int/emergencies/mers-cov/en/
+2014,FALSE,FALSE,FALSE,748,nan,http://www.emro.who.int/pandemic-epidemic-diseases/mers-cov/mers-situation-update-january-2020.html
+2015,FALSE,FALSE,FALSE,682,nan,
+2016,FALSE,FALSE,FALSE,257,nan,
+2017,FALSE,FALSE,FALSE,254,nan,
+2018,FALSE,FALSE,FALSE,142,nan,
+2019,FALSE,FALSE,FALSE,164,nan,
+2020,FALSE,FALSE,FALSE,2,1,
